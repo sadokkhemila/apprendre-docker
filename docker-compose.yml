@@ -6,7 +6,7 @@ services:
     depends_on:
       - redis
     ports:
-      - "80:80"
+      - "8085:8085"
     volumes:
       - static:/static
     networks:
